@@ -1,0 +1,41 @@
+
+/* 240821 로그인 페이지 css */
+
+.login-wrapper{
+    border: 1px black solid;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: cornflowerblue;
+}
+
+#login-form > input{
+    background-color: #9999;
+    border: white;
+}
+
+#login-form > input::placeholder{
+    background-color: #d2d2d2;
+    
+}
+
+#login-form  > input[type="submit"]{
+    color: white;
+    background-color: cornflowerblue;
+    width: 170px;
+    margin-top: 10px;
+}
+
+#login-form  > #chechbox-label{
+    display: block;
+    color: black;
+}
+
+.login-wrapper > .missing > button{
+    border: white;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 5px;
+    margin: 4px;
+}
