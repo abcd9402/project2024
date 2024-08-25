@@ -1,7 +1,7 @@
 
 /* 240821 id찾기 페이지 css */
 
-.missingId-wrapper{
+.missingIdWrapper{
     border: 1px black solid;
     width: 250px;
     height: 250px;
@@ -10,12 +10,12 @@
     color: cornflowerblue;
 }
 
-#missingId-form > input{
+#missingIdForm > input{
     background-color: #9999;
     border: white;
 }
 
-#missingId-form > input::placeholder{
+#missingIdForm > input::placeholder{
     background-color: #d2d2d2;
     
 }
@@ -29,7 +29,7 @@
 
 
 
-.missingId-wrapper > #missingId-form > .missing > input[type="submit"]{
+.missingIdWrapper > #missingIdForm > .missing > input[type="submit"]{
     border: white;
     color: white;
     background-color: cornflowerblue;

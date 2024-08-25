@@ -1,0 +1,15 @@
+/* 240826 회원가입페이지 css */
+
+
+
+#passCheck {
+    color:red;
+}
+
+#imgArea{
+    padding: 6px 25px;
+    background-color:cornflowerblue;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}

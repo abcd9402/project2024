@@ -1,7 +1,7 @@
 
-/* 240821 비밀번호찾기 페이지 css */
+/* 240821 로그인 페이지 css */
 
-.missingPassword-wrapper{
+.loginWrapper{
     border: 1px black solid;
     width: 250px;
     height: 250px;
@@ -10,30 +10,32 @@
     color: cornflowerblue;
 }
 
-#missingPassword-form > input{
+#loginForm > input{
     background-color: #9999;
     border: white;
 }
 
-#missingPassword-form > input::placeholder{
+#loginForm > input::placeholder{
     background-color: #d2d2d2;
     
 }
 
-/* #missingId-form  > input[type="submit"]{
+#loginForm  > input[type="submit"]{
     color: white;
     background-color: cornflowerblue;
     width: 170px;
     margin-top: 10px;
-} */
+}
 
+#loginForm  > #chechboxLabel{
+    display: block;
+    color: black;
+}
 
-
-.missingPassword-wrapper > #missingPassword-form > .missing > input[type="submit"]{
+.loginWrapper > .missing > button{
     border: white;
     color: white;
     background-color: cornflowerblue;
     padding: 5px;
     margin: 4px;
-
 }
