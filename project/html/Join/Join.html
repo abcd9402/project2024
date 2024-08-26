@@ -4,6 +4,8 @@
 <html lang="en">
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <!--0826 다음 우편주소 api-->
+    <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
     <link href="../../css/Join.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,18 +33,24 @@
                 <option value="daum.net">다음</option>
                 <option value="nate.com">네이트</option>
             </select>
-            <input type="text" name="address" placeholder="주소" />
-            <button>검색</button>
-            <input type="submit" value="회원가입"><button>취소</button>
+            <input type="text" name="addressNum" id="addressNum" placeholder="우편 주소" />
+            <button type="button" onclick="addressFind()">주소 찾기</button>
+            <input type="text" name="addressOrigin" id="addressOrigin" placeholder="기본 주소" />
+            <input type="text" name="addressAdd" id="addressAdd" placeholder="상세 주소" />
             <label id="imgArea">
                 이미지
                 <input type="file" name="img" id="img" accept='image/*' onchange="previewImg(event)" hidden/>
             </label>
             <div id="previewImg"></div>
+            <input type="submit" value="회원가입"><button>취소</button>
+            
         </form>
 
     </div>
 
+
+    
     <script type="text/javascript" src="../../js/Join.js"></script>
+
 </body>
 </html>
